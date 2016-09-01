@@ -1,0 +1,28 @@
+{
+  "name": "testbundle",
+  "version": "0.0.1",
+  "description": "Test Bundle",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/robraux/testbundle.git"
+  },
+  "keywords": [
+    "test",
+    "bundle"
+  ],
+  "author": "Rob Raux",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/robraux/testbundle/issues"
+  },
+  "homepage": "https://github.com/robraux/testbundle#readme",
+  "dependencies": {
+    "lodash": "4.15.0"
+  },
+  "bundledDependencies" : ["lodash"],
+  "engines" : { "node" : ">=6.0.0"  }
+}
